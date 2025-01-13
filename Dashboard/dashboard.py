@@ -11,7 +11,7 @@ st.title("Data Analytic: Bike Sharing dataset")
 
 # Menambahkan picture
 with st.sidebar:
-    st.image("D:\data-analisis-main_bike\data-analisis-main\dashboard\logo sepeda.png")
+    st.image("Dashboard/logo sepeda.png")
 
 # Menambahkan sidebar
 st.sidebar.title("Hasil Analisis")
