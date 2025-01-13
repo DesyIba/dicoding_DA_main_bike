@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Membaca dan membersihkan data
-df_hour = pd.read_csv("D:\data-analisis-main_bike\data-analisis-main\dashboard\hour.csv")
+df_hour = pd.read_csv("D:\dicoding_DA_main_bike\Dashboard\hour.csv")
 
 # Membuat header
 st.title("Data Analytic: Bike Sharing dataset")
