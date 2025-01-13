@@ -2,12 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
-import os 
 
 # Membaca dan membersihkan data
-df_hour = pd.read_csv("D:\dicoding_DA_main_bike\Dashboard\hour.csv")
-print(os.getcwd())
-print(os.listdir("."))
+df_hour = pd.read_csv("Dashboard\hour.csv")
 
 # Membuat header
 st.title("Data Analytic: Bike Sharing dataset")
