@@ -12,7 +12,7 @@ st.title("Data Analytic: Bike Sharing dataset")
 
 # Menambahkan picture
 with st.sidebar:
-    st.image(Dashboard/logo sepeda.png")
+    st.image("Dashboard/logo sepeda.png")
 
 # Tambahkan filter rentang tanggal di sidebar
 st.sidebar.title("Filter Data")
