@@ -5,14 +5,14 @@ import streamlit as st
 import datetime
 
 # Membaca dan membersihkan data
-df_hour = pd.read_csv("D:\dicoding_DA_main_bike\Dashboard\hour.csv")
+df_hour = pd.read_csv("Dashboard/hour.csv")
 
 # Membuat header
 st.title("Data Analytic: Bike Sharing dataset")
 
 # Menambahkan picture
 with st.sidebar:
-    st.image("D:\dicoding_DA_main_bike\Dashboard\logo sepeda.png")
+    st.image(Dashboard/logo sepeda.png")
 
 # Tambahkan filter rentang tanggal di sidebar
 st.sidebar.title("Filter Data")
